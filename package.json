@@ -1,0 +1,23 @@
+{
+  "name": "projection",
+  "version": "0.0.1",
+  "description": "Project planner",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "newrepo"
+  },
+  "keywords": [
+    "project",
+    "manager"
+  ],
+  "author": "VPP",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^1.13.7",
+    "tslint-plugin-prettier": "^1.3.0"
+  }
+}
