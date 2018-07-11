@@ -1,6 +1,6 @@
-import { ApolloServer } from "apollo-server";
+const { ApolloServer } = require ("apollo-server");
 require("dotenv").config();
-import * as mongoose from "mongoose";
+const mongoose = require("mongoose");
 
 mongoose.connect(process.env.DB_URI);
 

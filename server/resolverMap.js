@@ -51,6 +51,7 @@ const resolvers = {
   },
   Mutation: {
     addUser(root, { user: { sub, ...metaData } }) {
+      console.log(sub, metaData);
       return UserModel.findOneAndUpdate({ sub: sub }, metaData, { upsert: true, new: true });
     },
   },

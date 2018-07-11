@@ -1,7 +1,7 @@
 import * as React from "react";
 import styled from "styled-components";
 import Footer from "./Footer";
-
+import AddUser from '../../mutations/AddUser';
 import Button from "../components/Button";
 
 const LandingContainer = styled.div`
@@ -58,6 +58,7 @@ export default class LandingPage extends React.Component<any, any> {
             <h3>Come build your best project yet.</h3>
             <p>Start planning today</p>
             <Button onClick={() => this.props.login()}>Log in</Button>
+            <AddUser />
           </ContentContainer>
         </Panel>
         <Footer></Footer>

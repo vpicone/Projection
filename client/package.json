@@ -42,6 +42,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "parcel-bundler": "^1.9.4",
-    "serve": "^9.2.0"
+    "serve": "^9.2.0",
+    "typescript": "^2.9.2"
   }
 }
